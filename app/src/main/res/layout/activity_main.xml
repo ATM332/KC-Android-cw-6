@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/sp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/gradient"
+        android:layout_marginTop="30dp" />
+
+
+    <TextView
+        android:id="@+id/sn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:text="student name" />
+
+
+    <TextView
+        android:id="@+id/sa"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:text="student age" />
+
+    <TextView
+        android:id="@+id/sg"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:text="student grade" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gradient"
+        android:text="Next"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gradient"
+        android:text="Return"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="-350dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:text="Student name:" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:text="Student age:"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Student grade:"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>
